@@ -1,0 +1,186 @@
+@import url(style.css);
+
+@media (max-width: 900px) {
+  
+  
+  .hero {
+    height: 50vh;
+  }
+
+}
+
+@media (max-width: 670px) {
+  .nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+
+  .container {
+    padding: 1rem 2rem;
+  }
+
+  .hero {
+    height: 40vh;
+  }
+
+  .right {
+    gap: 1rem;
+    width: 50%;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .join {
+    font-size: 1.2rem;
+  }
+
+  /* Page 2 start */
+
+}
+
+@media (max-width: 500px) {
+  .hero {
+    height: 20vh;
+  }
+  .right {
+    gap: .5rem;
+    width: 50%;
+  }
+
+  .heading {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: .8rem;
+  }
+
+  .join {
+    font-size: .8rem;
+    padding: .4rem;
+  }
+
+  .catagory {
+    flex-direction: row;
+    flex-basis: 30%;
+    height: 5rem;
+    width: 5rem;
+  }
+  
+  .sub-head {
+    font-size: 1.5rem;
+  }
+  .page1 {
+    padding-top: 2rem;
+  }
+
+  .arival-container {
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+
+  .arival-card {
+    width: auto;
+  }
+  .pro-img {
+    width: 16.5rem;
+    height: 17rem;
+  }
+
+  .pro-dets {
+    width: 16.5rem;
+  }
+
+
+
+
+  /* Page 2 Start */
+
+  .page2 {
+    height: 50vw;
+  }
+
+  .page2-card {
+    height: 50%;
+    width: 60%;
+    padding: .8rem;
+  }
+
+  .p2btn {
+    font-size: .8rem;
+    padding: .6rem;
+  }
+
+  /* page 3 */
+
+  .recomand {
+    flex-wrap: wrap;
+  }
+
+  /* page4 */
+
+  .page4-img {
+    background-size: 140%;
+  }
+
+  .page4-card {
+    height: 50%;
+    width: 40%;
+    padding: .8rem;
+  }
+
+  footer {
+    margin-bottom: 7rem;
+
+  }
+
+}
+
+@media (max-width: 390px) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    padding: 1rem 2rem;
+  }
+
+  .hero {
+    height: 15vh;
+  }
+
+  .catagory {
+    height: 6rem;
+    width: 6rem;
+  }
+
+
+
+  /* Page 2 Start */
+
+}
+
+@media (max-width: 290px) {
+  html {
+    font-size: 40%;
+  }
+  .hero {
+    height: 15vh;
+  }
+  .catagory {
+    height: 5rem;
+    width: 5rem;
+  }
+
+
+
+  /* Page 2 Start */
+
+}
